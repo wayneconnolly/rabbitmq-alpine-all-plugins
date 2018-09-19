@@ -1,7 +1,6 @@
 FROM rabbitmq:management-alpine
 
-RUN rabbitmq-plugins enable --offline rabbitmq_management_visualiser && \
-    rabbitmq-plugins enable --offline rabbitmq_amqp1_0 && \
+RUN rabbitmq-plugins enable --offline rabbitmq_amqp1_0 && \
     rabbitmq-plugins enable --offline rabbitmq_mqtt && \
     rabbitmq-plugins enable --offline rabbitmq_stomp && \
     rabbitmq-plugins enable --offline rabbitmq_web_stomp
