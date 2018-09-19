@@ -1,0 +1,1 @@
+# rabbitmq-alpine-all-plugins
