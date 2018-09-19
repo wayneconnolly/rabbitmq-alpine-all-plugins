@@ -21,9 +21,10 @@ mq:
     - "8883:8883/tcp"
     - "15672:15672/tcp"
     - "15674:15674/tcp" 
+    - "15671:15671/tcp"
     - "25672:25672/tcp"
-    - "61613:61613/tcp"      
-    - "61614:61614/tcp"   
+    - "61613:61613/tcp"    
+    - "61614:61614/tcp" 
     expose: 
     - "1883:1883/tcp"
     - "4369:4369/tcp"
@@ -32,9 +33,10 @@ mq:
     - "8883:8883/tcp"
     - "15672:15672/tcp"
     - "15674:15674/tcp" 
+    - "15671:15671/tcp"    
     - "25672:25672/tcp"
     - "61613:61613/tcp"  
-    - "61614:61614/tcp"  
+    - "61614:61614/tcp"     
     environment:
       RABBITMQ_DEFAULT_USER: someuser
       RABBITMQ_DEFAULT_PASS_FILE: /run/secrets/RABBITMQ_DEFAULT_PASS
