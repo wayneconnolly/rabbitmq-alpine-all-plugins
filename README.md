@@ -4,7 +4,6 @@ Additions are that the following plugins are baked in. Based off rabbitmq:manage
 
 Additions plugins: (message me to add more)
 
-- rabbitmq_management_visualiser
 - rabbitmq_amqp1_0
 - rabbitmq_mqtt
 - rabbitmq_stomp
